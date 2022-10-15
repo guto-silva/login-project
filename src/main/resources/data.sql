@@ -1,0 +1,2 @@
+CREATE TABLE usuario(id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(30) NOT NULL, senha VARCHAR(12) NOT NULL);
+INSERT INTO usuario(id, nome, senha) VALUES (1, 'Guto', 'teste123');
